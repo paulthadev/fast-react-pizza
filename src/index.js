@@ -12,6 +12,6 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
+//
 //  React Before 18
 //  React.render(<Ap />, document.getElementById("root"));
