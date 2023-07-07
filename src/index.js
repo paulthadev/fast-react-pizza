@@ -23,7 +23,6 @@ function Header() {
 
 function Menu() {
   const pizzas = pizzaData;
-  // const pizzas = [];
   const numPizza = pizzas.length;
 
   return (
@@ -50,8 +49,6 @@ function Menu() {
 }
 
 function Pizza({ pizza }) {
-  // if (pizza.soldOut) return null;
-
   return (
     <li className={`pizza ${pizza.soldOut ? "pizza sold-out" : ""}`}>
       <img src={pizza.photoName} alt={pizza.name} />
