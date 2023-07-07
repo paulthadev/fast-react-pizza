@@ -31,11 +31,17 @@ function Menu() {
       <h2>Our Menu</h2>
 
       {numPizza ? (
-        <ul className="pizzas">
-          {pizzas.map((pizza) => (
-            <Pizza pizza={pizza} key={pizza.name} />
-          ))}
-        </ul>
+        <>
+          <p>
+            Authentic Italian cuisine. 6 creative dishees to choose from. All
+            from our stone oven, all organic, all delicious.
+          </p>
+          <ul className="pizzas">
+            {pizzas.map((pizza) => (
+              <Pizza pizza={pizza} key={pizza.name} />
+            ))}
+          </ul>
+        </>
       ) : (
         <p>We're working on our menu, come back later</p>
       )}
@@ -44,15 +50,16 @@ function Menu() {
 }
 
 function Pizza({ pizza }) {
-  if (pizza.soldOut) return null;
+  // if (pizza.soldOut) return null;
 
   return (
-    <li className="pizza">
+    <li className={`pizza ${pizza.soldOut ? "pizza sold-out" : ""}`}>
       <img src={pizza.photoName} alt={pizza.name} />
       <div>
         <h3>{pizza.name}</h3>
         <p>{pizza.ingredients}</p>
-        <span>{pizza.price}</span>
+
+        <span>{pizza.soldOut ? "SOLD OUT" : pizza.price}</span>
       </div>
     </li>
   );
