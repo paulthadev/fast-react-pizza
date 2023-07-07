@@ -4,7 +4,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4b47d930-6170-4f25-b315-500047b7e9bf/deploy-status)](https://app.netlify.com/sites/pizza-foods/deploys)
 Live Preview 👉[Click here](https://pizza-foods.netlify.app/)
 
-
+![alt text](https://github.com/fadaypaul//fast-react-pizza/blob/main/overview.JPG?raw=true)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
