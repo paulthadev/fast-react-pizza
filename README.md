@@ -1,8 +1,9 @@
 # React Fundamentals with Create React App
 
 ## FAST REACT PIZZA
+✅ Live Preview 👉[Click here](https://pizza-foods.netlify.app/)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4b47d930-6170-4f25-b315-500047b7e9bf/deploy-status)](https://app.netlify.com/sites/pizza-foods/deploys)
-Live Preview 👉[Click here](https://pizza-foods.netlify.app/)
 
 ![overview](https://github.com/fadayopaul/fast-react-pizza/blob/main/overview.JPG?raw=true)
 
